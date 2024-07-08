@@ -141,7 +141,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button class="btn btn-lg btn-pink-default-hover" onclick="updateAdminProfile();">SEND</button>
+                                    <button class="btn btn-lg btn-pink-default-hover" onclick="contactUsMessage();">SEND</button>
                                 </div>
                             </div>
                         </div>

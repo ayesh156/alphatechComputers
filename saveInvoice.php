@@ -27,7 +27,7 @@ if(isset($_SESSION["u"])){
     $date = $d -> format("Y-m-d H:i:s");
 
     Database::iud("INSERT INTO `invoice` (`invoice_id`,`order_id`,`date`,`total`,`qty`,`status`,`product_id`,`user_email`) VALUES ('".$invoice_id."','".$o_id."','".$date."','".$amount."','".$qty."','0','".$p_id."','".$mail."')");
-
+    
     echo ("1");
 
 }

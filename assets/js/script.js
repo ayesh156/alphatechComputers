@@ -1835,7 +1835,7 @@ function deleteProduct(id) {
     r.send();
 }
 
-function updateAdminProfile() {
+function contactUsMessage() {
     var name = document.getElementById("name");
     var email = document.getElementById("email4");
     var subject = document.getElementById("subject");
